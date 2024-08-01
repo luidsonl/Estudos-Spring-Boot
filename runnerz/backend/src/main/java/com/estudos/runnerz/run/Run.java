@@ -8,8 +8,8 @@ public record Run (
     Integer id,
     @NotEmpty
     String title,
-    Coordinate startPoint,
-    Coordinate endPoint,
+    String startPoint,
+    String endPoint,
     LocalDateTime startTime,
     LocalDateTime endTime
 ){

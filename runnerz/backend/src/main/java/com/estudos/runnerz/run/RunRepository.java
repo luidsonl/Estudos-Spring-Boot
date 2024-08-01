@@ -40,16 +40,16 @@ public class RunRepository {
         runs.add(new Run(
                 1,
                 "Running in the 90's",
-                new Coordinate(20.3, 20.3),
-                new Coordinate(20.3001, 20.3001),
+                "kokiri forest",
+                "gerundo valley",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusHours(1)
         ));
         runs.add(new Run(
                 2,
                 "Running alone",
-                new Coordinate(30.3, 20.3),
-                new Coordinate(30.3002, 20.3001),
+                "Konoha",
+                "Vila da névoa",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusHours(2)
 
